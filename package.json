@@ -1,0 +1,28 @@
+{
+  "name": "google-links-scrapper",
+  "version": "1.0.0",
+  "main": ".dist/index.js",
+  "module": "CommanJs",
+  "engines": {
+        "node": "^22",
+        "npm": "^10"
+    },
+  "scripts": {
+    "preinstall": "npx only-allow npm",
+    "build": "tsc",
+    "start": "node -r ts-node/register --env-file=.env ./src/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "npm@10.7.0",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@crawlora/browser": "latest"
+  }
+}

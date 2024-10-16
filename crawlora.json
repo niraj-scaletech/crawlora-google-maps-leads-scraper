@@ -1,0 +1,16 @@
+{
+    "env":{
+        "key":"value"
+    },
+    "entrypoint": "./.dist/index.js",
+    "function": "default",
+    "screenshot_files": ["./assets/screenshot_1.png", "./assets/screenshot_2.png", "./assets/screenshot_3.png", "./assets/screenshot_4.png"],
+    "logo_file": "./assets/logo.png",
+    "banner_file": "./assets/banner.png",
+    "title": "Google Links searches app starter v2",
+    "short_description": "Get google links quickly",
+    "version":"1.0.0",
+    "documentation_file": "./documentation.md",
+    "input_file": "./input.json",
+    "app_id": "620f86d8-80cb-458e-b03d-0842d0c2d7f7"
+}

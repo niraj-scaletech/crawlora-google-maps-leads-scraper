@@ -1,0 +1,12 @@
+[
+    {
+        "type": "textarea",
+        "datatype": "string",
+        "placeholder": "Enter search keywords per line",
+        "default": "crawlora",
+        "label": "Google searchs",
+        "regex": "/^.*$/",
+        "required": true,
+        "name": "searches"
+      }
+]
