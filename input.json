@@ -1,12 +1,12 @@
 [
-    {
-        "type": "textarea",
-        "datatype": "string",
-        "placeholder": "Enter search keywords per line",
-        "default": "crawlora",
-        "label": "Google searchs",
-        "regex": "/^.*$/",
-        "required": true,
-        "name": "searches"
-      }
+  {
+    "type": "textarea",
+    "datatype": "string",
+    "placeholder": "Enter 1 keyword per line ex: Cafe \n Apple in india",
+    "default": "Apple in india",
+    "label": "keywords",
+    "regex": "/^.*$/",
+    "required": true,
+    "name": "keywords"
+  }
 ]

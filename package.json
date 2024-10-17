@@ -1,5 +1,5 @@
 {
-  "name": "google-links-scrapper",
+  "name": "google-maps-leads-scraper",
   "version": "1.0.0",
   "main": ".dist/index.js",
   "module": "CommanJs",
@@ -13,7 +13,7 @@
     "start": "node -r ts-node/register --env-file=.env ./src/test.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Niraj visavadiya",
   "license": "ISC",
   "description": "",
   "packageManager": "npm@10.7.0",

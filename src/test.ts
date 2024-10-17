@@ -1,3 +1,3 @@
-import GetGoogleLinks from "./index";
+import GetGoogleMapLeads from "./index";
 
-GetGoogleLinks({ searches: `crawlora\nscaletech` });
+GetGoogleMapLeads({ keywords: `Cafe \n Apple in india` });
