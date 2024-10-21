@@ -15,5 +15,6 @@
     "short_description": "Scrape store details (title, address, rating, etc) from Google Maps.",
     "version": "1.0.0",
     "documentation_file": "./documentation.md",
-    "input_file": "./input.json"
+    "input_file": "./input.json",
+    "app_id":"793cfa36-b031-4f6b-a93a-14f07107b0cc"
 }
