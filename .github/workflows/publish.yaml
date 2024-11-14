@@ -13,6 +13,6 @@ jobs:
       packages: write
       id-token: write
       issues: write
-    uses: crawlora-com/starter-apps/.github/workflows/publish.yaml@main
+    uses: crawlora/starter-apps/.github/workflows/publish.yaml@main
     secrets:
       auth_key: ${{ secrets.CRAWLORA_AUTH_KEY }}
